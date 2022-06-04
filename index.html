@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="script.js">
+  <title>El talachas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <link href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Tacontento</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" type="button" id="modalContacto" data-toggle="modal"
+            data-target="#exampleModal">Conocenos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desabilitado</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+
+      <h2 class="mt-3">¿Quienes somos?</h2>
+      <div>
+        <p class="mb-2 text-muted">
+          Grupo "El talachas" es una refaccionaria en la cual puedes confiar que cualquier pieza <br>que busques la tendremos 
+          Contamos desde piezas para autoviles, maquinaria y linea blanca, teniendo las mejores marcas y precios<br>
+          Si no lo tenemos te lo conseguimos!!
+        </p>
+        <h2 class="mt-3">¿Qué servicios ofrecemos?</h2>
+        <div>
+          <p class="mb-2 text-muted">
+            Ofrecemos toda nuestra atención a nuestro clientes para resolver todas
+            sus dudas<br>ademas de ayudarles a encontrar su producto<br>
+          </p>
+        </div>
+        <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+          <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="width: 18rem;">
+            <img src="assets/img/tracto.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Refacciones de automoviles
+                , muchos modelos y excelentes precios
+              </p>
+            </div>
+          </div>
+
+          <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="width: 18rem;">
+            <img src="assets/img/maquina.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Para maquinaria, desde tractores hasta maquiladoras industriales
+              </p>
+            </div>
+          </div>
+
+          <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="width: 18rem;">
+            <img src="assets/img/refri.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> Tambien se cuenta con refacciones para linea blanca,
+                desde licuadoras, lavadoras, etc.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <h2 class="mt-3">Ubicación</h2>
+      <div>
+        <p class="mb-2 text-muted">
+          Grupo "El talachas" es una refaccionaria en la cual puedes confiar que cualquier pieza <br>que busques la tendremos 
+          Contamos desde piezas para autoviles, maquinaria y linea blanca, teniendo las mejores marcas y precios<br>
+          Si no lo tenemos te lo conseguimos!!
+        </p>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120846.37149119926!2d-96.87148801644783!3d18.822688515118735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4f253bb79dbab%3A0x575bf63f4e84463a!2sYanga%2C%20Ver.!5e0!3m2!1ses!2smx!4v1654316711366!5m2!1ses!2smx" 
+          width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="pagina">
+    <div id="cabecera">LOGO</div>
+    <div id="contenido"></div>
+    <div id="pie">2022 &copy; El talachas</div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Conocenos</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Correo Electronico:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Tu duda:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" id="btnSend" data-dismiss="modal">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
