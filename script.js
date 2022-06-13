@@ -1,8 +1,12 @@
-(function () {
-  $(function () {
-    $('#modalContacto').on('click', function () {
-      console.error('lk');
-      $('#exampleModal').modal();
-    });
-  });
-})();
+// JavaScript Document
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
+
+//otro 
+
+$(document).ready(function(){
+  $('.slider').slider(); 
+$('.modal').modal();
+});
