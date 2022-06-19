@@ -9,4 +9,5 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.slider').slider(); 
 $('.modal').modal();
+console.log("asdasd");
 });
